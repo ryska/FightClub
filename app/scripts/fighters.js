@@ -22,7 +22,7 @@
       id: 3263,
       name: 'John',
       lastname: 'the Cat',
-      description: 'Loves the sun and a good<br>bowl of milk',
+      description: 'Loves the sun and a good bowl of milk',
       avatar: 'http://lorempixel.com/100/100/cats/1',
       experience: 5
     },
