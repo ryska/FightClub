@@ -63,7 +63,7 @@
     var winner = $('.winner');
     var currentHtml;
     if(exp1 > exp2){
-      latestHtml =  '<p>Latest winner: </p>' + selected1.name + ' ' + selected2.lastname;
+      latestHtml =  '<p>Latest winner: </p>' + selected2.name + ' ' + selected2.lastname;
       currentHtml = '<div class="winner">' + selected1.name + ' ' + selected1.lastname + ' wins!</div>';
       selected1.experience += 3;
       selected2.experience += 1;

@@ -32,7 +32,7 @@
       name: 'Fur',
       lastname: 'Ball',
       description: 'Binge catmint consumer',
-      avatar: 'http://lorempixel.com/100/100/cats/2',
+      avatar: 'http://lorempixel.com/100/100/cats/5',
       experience: 3
     },
     3466:
@@ -41,7 +41,7 @@
       name: 'Grupmpy',
       lastname: 'Cat',
       description: 'Doesn\'t like anyone or anything',
-      avatar: 'http://lorempixel.com/100/100/cats/3',
+      avatar: 'http://lorempixel.com/100/100/cats/8',
       experience: 1
     }
   };

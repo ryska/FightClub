@@ -56,6 +56,7 @@ body{
   border: none;
 }
 
+
 /*LIST OF FIGHTERS */
 
 .fighterList{
@@ -113,7 +114,6 @@ body{
 .btn-circle .glyphicon{
   color: #fff;
   padding-top: 1px;
-  padding-left: 1px;
 }
 
 /*BATTLEFIELD */
