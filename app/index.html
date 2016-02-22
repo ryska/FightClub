@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>fight_club</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+</head>
+<body>
+  <!--[if lt IE 10]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class='fighter-manager-container '>
+          <div class="addNew-container">
+            <form class="addNew-form">
+              Name*:
+              <input type='text'class='input-name' required /><br>
+              Last Name*:
+              <input type='text' class='input-lastname' required /><br>
+              Description:
+              <input type='text' class='input-desc' maxlength="33"/><br>
+              Avatar link*:
+              <input type='url' class='input-avatar' /><br>
+              Experience:
+              <input type='number' class='input-exp' min="0"/><br>
+              <button class="addNew-btn" type="submit">Add new fighter</button>
+            </form>
+          </div>
+          <div class="fighterList"></div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="battlefield">
+          <div class="rules">
+            <h5>Rules:</h5>
+            <p>
+              Choose two fighters from the list and start the battle.
+              You can add as many new fighters as you want.
+              Every time a fighter wins a battle it gains 3 points of experience,
+              otherwise, it gains one. Have fun!
+            </p>
+          </div>
+          <button class="fight">Fight!</button>
+          <div class="winner">
+          </div>
+          <div class="rates">
+            <div class="lastWinConteiner">
+              <div class="lastWin">
+                <p>Latest winner: </p><br>
+              </div>
+            </div>
+            <div class="bestFighterContainer">
+              <div class="bestFighter">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/plugins.js -->
+
+  <script src="/bower_components/bootstrap/js/button.js"></script>
+
+  <!-- endbuild -->
+  <!-- build:js scripts/main.js -->
+  <script>fightClub = {};</script>
+  <script src="scripts/fighters.js"></script>
+  <script src="scripts/battle.js"></script>
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
