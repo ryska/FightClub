@@ -37,13 +37,14 @@
               Description:
               <input type='text' class='input-desc' maxlength="40"/><br>
               Avatar link*:
-              <input type='url' class='input-avatar' /><br>
+              <input type='url' class='input-avatar' required/><br>
               Experience:
               <input type='number' class='input-exp' min="0"/><br>
               <button class="addNew-btn" type="submit">Add new fighter</button>
             </form>
           </div>
-          <div class="fighterList"></div>
+          <div class="fighterList">
+          </div>
         </div>
       </div>
 
@@ -53,7 +54,7 @@
             <h5>Rules:</h5>
             <p>
               Choose two fighters from the list and start the battle.
-              You can add as many new fighters as you want 
+              You can add as many new fighters as you want
               (you can copy this link to get an avatar: http://lorempixel.com/100/100/cats).
               Every time a fighter wins a battle it gains 3 points of experience,
               otherwise, it gains one. Have fun!
